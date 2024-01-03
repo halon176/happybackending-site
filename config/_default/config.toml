@@ -1,0 +1,6 @@
+baseURL = "https://happybackending.com/"
+defaultContentLanguage	= "it"
+languageCode = "it"
+colorScheme = "ocean"
+enableEmoji = true
+enableRobotsTXT = true
