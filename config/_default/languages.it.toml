@@ -1,14 +1,14 @@
-#title = "Happy Backending"
+title = "Happy Backending"
+copyright = "Happy Backending"
 
-
-
-[author]
-  name = "Happy Backending"
-  image = "img/logo.jpg"
-  headline = "Sviluppo backend ma felice"
-  links = [
-    { youtube = "https://www.youtube.com/channel/UC0AYdNU4NtuxWASP4Qlil7w" },
-    { telegram = "https://t.me/happybackending_feed" },
-    { github = "https://github.com/halon176" },
-    { email = "mailto:happybackending@gmail.com" }
-  ]
+[params]
+  [params.author]
+    name = "Happy Backending"
+    image = "img/logo.jpg"
+    headline = "Sviluppo backend ma felice"
+    links = [
+      { youtube = "https://www.youtube.com/channel/UC0AYdNU4NtuxWASP4Qlil7w" },
+      { telegram = "https://t.me/happybackending_feed" },
+      { github = "https://github.com/halon176" },
+      { email = "mailto:happybackending@gmail.com" }
+    ]

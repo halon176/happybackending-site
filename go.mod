@@ -1,5 +1,5 @@
-module github.com/halon176/happyhackending-site
+module github.com/halon176/happybackending-site
 
 go 1.21.5
 
-require github.com/jpanther/congo/v2 v2.7.6 // indirect
+require github.com/jpanther/congo/v2 v2.13.0 // indirect
