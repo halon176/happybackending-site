@@ -24,7 +24,7 @@ fingerprintAlgorithm = "sha256"
 
 [article]
   showDate = true
-  showDateUpdated = true
+  showDateUpdated = false
   showAuthor = false
   showBreadcrumbs = true
   showEdit = false
@@ -32,8 +32,8 @@ fingerprintAlgorithm = "sha256"
   showPagination = true
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = true
+  showTaxonomies = false
+  showWordCount = false
 
 [list]
   showBreadcrumbs = true
