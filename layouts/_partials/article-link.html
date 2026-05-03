@@ -1,0 +1,15 @@
+<article class="border-b border-neutral-200 py-5 first:pt-0 dark:border-neutral-800">
+  <h3 class="text-lg font-semibold leading-snug">
+    <a
+      class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+      href="{{ with .Params.externalUrl }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}"
+      {{ with .Params.externalUrl }}target="_blank" rel="external"{{ end }}
+    >{{ .Title | emojify }}</a>
+  </h3>
+  <div class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">
+    {{ partial "article-meta.html" . }}
+  </div>
+  {{ with .Params.description }}
+    <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">{{ . | emojify }}</p>
+  {{ end }}
+</article>

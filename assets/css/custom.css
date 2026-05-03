@@ -1,0 +1,8 @@
+h1, h2, h3, h4, h5, h6,
+.text-4xl, .text-2xl, .text-xl, .font-extrabold, .font-semibold {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
